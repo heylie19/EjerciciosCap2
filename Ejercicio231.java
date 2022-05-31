@@ -1,0 +1,21 @@
+/*(Tabla de cuadrados y cubos) Utilizando sólo las técnicas de programación que aprendió en este capítulo, 
+escriba una aplicación que calcule los cuadrados y cubos de los números del 0 al 10, 
+y que imprima los valores resultantes en formato de tabla, como se muestra a continuación.*/
+
+public class Ejercicio231 
+{
+    public static void main(String arg[])
+    {  // Abre metodo main
+        System.out.printf("\nNumero Cuadrado   Cubo");
+        System.out.printf("\n%6d %6d %6d", 1, 1*1, 1*1*1);
+        System.out.printf("\n%6d %6d %6d", 2, 2*2, 2*2*2);
+        System.out.printf("\n%6d %6d %6d", 3, 3*3, 3*3*3);
+        System.out.printf("\n%6d %6d %6d", 4, 4*4, 4*4*4);
+        System.out.printf("\n%6d %6d %6d", 5, 5*5, 5*5*5);
+        System.out.printf("\n%6d %6d %6d", 6, 6*6, 6*6*6);
+        System.out.printf("\n%6d %6d %6d", 7, 7*7, 7*7*7);
+        System.out.printf("\n%6d %6d %6d", 8, 8*8, 8*8*8);
+        System.out.printf("\n%6d %6d %6d", 9, 9*9, 9*9*9);
+        System.out.printf("\n%6d %6d %6d\n", 10, 10*10, 10*10*10);
+    }
+}
